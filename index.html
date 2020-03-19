@@ -6,22 +6,61 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <div class="container-fluid">
-            <div class="row bg-dark text-info">
-                <div class="col-12 ">
-                    <h1>Roc Paper Scissors</h1>
+    <header class="container-fluid bg-dark text-info text-center m-auto">
+        <h1>Rock Paper Scissors</h1>
+        <hr class="bg-warning">
+        <hr>
+    </header>
+
+    <main class="container-fluid text-center ml-2">
+        <div class="row text-center background-one">
+
+            <div class="col-4 col-lg-4 pt-4 m-auto img-fluid">
+                <h1 class="player-one">Player 1</h1>
+
+                <div class="btn-group btn-group-toggle text-center bg-dark text-warning" data-toggle="buttons">
+
+                    <button class="btn btn bg-dark text-warning" onclick="play(0)">Rock</button>
+
+
+                    <button class="btn btn bg-dark text-warning" onclick="play(1)">Paper</button>
+
+
+                    <button class="btn btn bg-dark text-warning" onclick="play(2)">scissors</button>
                 </div>
+
+                <img class="one" src="https://i0.wp.com/media.criticalhit.net//2015/05/chun-slight-speed-down-Copy3.gif" alt=" " id="playerOne" class="img-fluid">
+            </div>
+
+
+            <div class="col-4 col-lg-4  text-center img-fluid"> <img style="height: 300px;" src="https://comicvine1.cbsistatic.com/uploads/original/11111/111111411/5246291-0002381718-Vs.pn.png" alt=""></div>
+
+            <div class="col-4 col-lg-4 m-auto img-fluid ">
+                <h1 class="player-two">Player 2</h1>
+
+                <div class="btn-group btn-group-toggle text-center bg-dark text-warning my-4" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                        <input type="radio" checked> Rock
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option2"> Paper
+                    </label>
+                    <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="option3"> Scissors
+                    </label>
+                </div>
+                <img class="two  pt-5" src="https://49.media.tumblr.com/64a7597b273207bd713b7a3f3ffe5e18/tumblr_mlmbbi6SB81qbaj5no1_400.gif" alt="" id="playerTwo play" class="img-fluid">
             </div>
         </div>
-    </header>
+    </main>
 
 
 
@@ -30,10 +69,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+    <script src="main.js "></script>
 </body>
 
 </html>

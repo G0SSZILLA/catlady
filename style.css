@@ -1,0 +1,30 @@
+.background-one {
+    margin-top: -17px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-image: url(https://media1.giphy.com/media/suTiiQdo4S64w/source.gif);
+}
+
+.player-one {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    color: darkred;
+}
+
+.player-two {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 100px;
+    color: darkblue;
+}
+
+.one {
+    height: 400px;
+    margin-bottom: 400px;
+}
+
+.two {
+    height: 400px;
+    margin-bottom: 390px;
+}
